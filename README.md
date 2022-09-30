@@ -31,4 +31,12 @@ TODO: use scripts to process data.
 
 ### Example Results
 
-TODO: add example graphs.
+TODO: explain example results
+
+|![](./assets/pmembench_log_dax.svg)|
+|:--:|
+|Figure 1: PMDK on DAX file.  Total execution time is ~1s.|
+
+|![](./assets/pmembench_log_m_new.svg)|
+|:--:|
+|Figure 2: PMDK on non-DAX file.  Total execution time is ~180s.|
