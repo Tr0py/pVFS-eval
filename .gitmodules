@@ -2,5 +2,5 @@
 	path = deps/pmdk
 	url = https://github.com/pmem/pmdk
 [submodule "FlameGraph"]
-	path = FlameGraph
+	path = scripts/FlameGraph
 	url = https://github.com/brendangregg/FlameGraph.git
