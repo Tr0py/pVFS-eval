@@ -1,5 +1,5 @@
 [submodule "pmdk"]
-	path = pmdk
+	path = deps/pmdk
 	url = https://github.com/pmem/pmdk
 [submodule "FlameGraph"]
 	path = FlameGraph
