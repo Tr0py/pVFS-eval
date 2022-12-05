@@ -10,3 +10,6 @@
 [submodule "src/vdax-mmap"]
 	path = src/vdax-mmap
 	url = git@bitbucket.org:ricearch/vdax-mmap.git
+[submodule "deps/nvthreads"]
+	path = deps/nvthreads
+	url = https://github.com/Tr0py/nvthreads
