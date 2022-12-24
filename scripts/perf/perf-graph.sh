@@ -1,6 +1,8 @@
 #!/bin/bash
 # Usage: ./perf.sh <name> <command-to-run-program>
-# Output: ./perf-data/<name>.svg
+# Set FLAME_GRAPH_ROOT  to the root of the FlameGraph directory
+# Output: ./perf-data/<name>.svg containing the FlameGraph
+
 PERF=perf
 FLAME_GRAPH_ROOT=/home/ziyi/git/pvfs-eval/scripts/FlameGraph
 
