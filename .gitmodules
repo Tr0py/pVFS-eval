@@ -13,3 +13,6 @@
 [submodule "deps/nvthreads"]
 	path = deps/nvthreads
 	url = https://github.com/Tr0py/nvthreads
+[submodule "deps/pmthreads"]
+	path = deps/pmthreads
+	url = git@github.com:Tr0py/pmthreads-eval.git
