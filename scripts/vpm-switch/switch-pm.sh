@@ -9,6 +9,7 @@ RAMFS=/dev/shm/shm-storage
 EXT4=/root/pms/ext4
 EXT4NJ=/root/pms/ext4nj
 EXT4HDD=/root/pms/ext4-hdd
+EXT4DAX=/root/pms/ext4-dax
 XFS=/root/pms/xfs
 
 ROOT=/dev/shm
@@ -17,7 +18,14 @@ FS_PATH=
 
 case $1 in
 	"pm")
+		mkdir -p $RAMFS/$FNVTHREADS
+		mkdir -p $RAMFS/$FPMTHREADS
 		FS_PATH=$RAMFS
+		;;
+	"pm-real")
+		mkdir -p $EXT4DAX/$FNVTHREADS
+		mkdir -p $EXT4DAX/$FPMTHREADS
+		FS_PATH=$EXT4DAX
 		;;
 
 	"vpm")
