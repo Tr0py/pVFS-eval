@@ -4,12 +4,12 @@
 [submodule "FlameGraph"]
 	path = scripts/FlameGraph
 	url = https://github.com/brendangregg/FlameGraph.git
-[submodule "src/linux-pvfs"]
-	path = src/linux-pvfs
-	url = git@bitbucket.org:ricearch/linux-pvfs.git
-[submodule "src/vdax-mmap"]
-	path = src/vdax-mmap
-	url = git@bitbucket.org:ricearch/vdax-mmap.git
+[submodule "src/kernel"]
+	path = src/kernel
+	url =  git@bitbucket.org:ricearch/vpm-kernel.git
+[submodule "src/user"]
+	path = src/user
+	url = git@bitbucket.org:ricearch/vpm-user.git
 [submodule "deps/nvthreads"]
 	path = deps/nvthreads
 	url = https://github.com/Tr0py/nvthreads
