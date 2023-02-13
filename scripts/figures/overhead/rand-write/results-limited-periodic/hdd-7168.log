@@ -1,7 +1,0 @@
-progress: done  0... 
-total ops: 1317803
-elapsed time: 200
-throuput: 6589.015000
-0.006589 Mops/s
-0.77user 4.25system 3:20.27elapsed 2%CPU (0avgtext+0avgdata 3762640maxresident)k
-134816inputs+7664440outputs (938273major+19846minor)pagefaults 0swaps
