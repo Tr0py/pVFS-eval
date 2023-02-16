@@ -16,3 +16,12 @@
 [submodule "deps/pmthreads"]
 	path = deps/pmthreads
 	url = git@github.com:Tr0py/pmthreads-eval.git
+[submodule "deps/pmemkv"]
+	path = deps/pmemkv
+	url = https://github.com/pmem/pmemkv.git
+[submodule "deps/libpmemobj-cpp"]
+	path = deps/libpmemobj-cpp
+	url = https://github.com/pmem/libpmemobj-cpp.git
+[submodule "deps/pmemkv-bench"]
+	path = deps/pmemkv-bench
+	url = https://github.com/pmem/pmemkv-bench.git
